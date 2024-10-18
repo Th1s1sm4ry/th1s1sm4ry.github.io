@@ -3,14 +3,57 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Th1s1sm4ry - About Mary</title>
+        <title>Th1s1sm4ry - Home</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <link rel="icon" type="image/x-icon" href="pics/t1m.png">
+        <!-- <weblink="https://th1s1sm4ry.github.io/"></weblink> -->
     </head>
     <body>
-        <a href="https://twitch.streamlabs.com/th1s1sm4ry" class="donateButton">Support</a>
-        <div class="aboutMaryHeading">
-            <img src="pics/about-mary-combined.png">
+        <div class="homepageContainer">
+            <h1 class="homepageText">This is Mary</h1>
+            <svg class="arrowToGaming" width="150" height="150" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <filter id="fancyShadow">
+                        <feOffset result="off1" in="SourceAlpha" dx="-1" dy="-1" />
+                        <feFlood flood-color="#fccefc" />
+                        <feComposite in2="off1" operator="in" />
+                        <feMerge>
+                            <feMergeNode />
+                            <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+    
+                        <feOffset result="off2" in="SourceAlpha" dx="1" dy="-1" />
+                        <feFlood flood-color="#D78FF8" />
+                        <feComposite in2="off2" operator="in" />
+                        <feMerge>
+                            <feMergeNode />
+                            <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+    
+                        <feOffset result="off3" in="SourceAlpha" dx="-1" dy="1" />
+                        <feFlood flood-color="#D78FF8" />
+                        <feComposite in2="off3" operator="in" />
+                        <feMerge>
+                            <feMergeNode />
+                            <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+    
+                        <feOffset result="off4" in="SourceAlpha" dx="1" dy="1" />
+                        <feFlood flood-color="#D78FF8" />
+                        <feComposite in2="off4" operator="in" />
+                        <feMerge>
+                            <feMergeNode />
+                            <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+                    </filter>
+                </defs>
+                <g filter="url(#fancyShadow)">
+                    <line x1="20" y1="20" x2="60" y2="90" stroke="black" stroke-width="3" stroke-linecap="round"/>
+                    <line x1="20" y1="20" x2="40" y2="30" stroke="black" stroke-width="3" stroke-linecap="round"/>
+                    <line x1="20" y1="20" x2="15" y2="40" stroke="black" stroke-width="3" stroke-linecap="round"/>
+                </g>
+            </svg>
         </div>
     </body>
 </html>

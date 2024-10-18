@@ -1,0 +1,29 @@
+.arrow1 {
+    animation: slide1 1s ease-in-out infinite;
+    text-shadow: -1px -1px #fccefc, 1px -1px 0 #bc2dff, -1px 1px 0 #f582f5, 1px 1px 0 #bc00f5;
+    font-size: 70px;
+    position: relative;
+}
+
+/* for the arrows
+<g transform="rotate(-130, 50, 50)"> */
+
+
+@keyframes slide1 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      transform: translate(10px, 0);
+    }
+  }
+
+/* .homepageText::before {
+    content: '←'; 
+    position: absolute;
+    top: -60px;
+    left: 25px;
+    transform: rotate(50deg);
+}

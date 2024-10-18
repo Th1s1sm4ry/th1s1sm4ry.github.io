@@ -1,17 +1,63 @@
-.aboutMaryHeading img {
-    width: 100%;
-    height: auto;
+html {
+  overflow: hidden;
 }
 
-.donateButton {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 16px;
+
+.homepageContainer {
+  /* background-image: url("pics/bush-bg.jpg"); */
+  background-size: cover;
+  background-position: bottom;
+  background: linear-gradient(180deg, #5A0292 10%, #9d00ff, #C974FF 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
 }
+
+.homepageText {
+  font-family: 'courier new', courier, monospace;
+  font-size: 74px;
+  letter-spacing: 5px;
+  /* padding: 0 20px; */
+  position: absolute;
+  text-shadow: -1px -1px #fccefc, 1px -1px 0 #bc2dff, -1px 1px 0 #f582f5, 1px 1px 0 #bc00f5;
+  display: relative;
+  animation: enlarge 2s ease-in-out infinite;
+}
+
+.arrowToGaming {
+  position: relative;
+  top: -130px; 
+  left: -300px;
+  animation: moveUpDown 2s ease-in-out infinite;
+}
+
+.arrowToGaming:hover {
+  animation: moveUpdown 1s infinite;
+}
+
+
+@keyframes moveUpDown {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateX(-20px) translateY(-20px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+/* @keyframes enlarge {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
