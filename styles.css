@@ -8,9 +8,9 @@ html {
   background-attachment: fixed;
   background-size: cover;
   opacity: 50%;
-  width: 110vw; 
-  height: 110vh; 
-  position: fixed; 
+  width: 110vw;
+  height: 110vh;
+  position: fixed;
   top: -10px;
   left: -10px;
   bottom: -10px;
@@ -27,13 +27,13 @@ html {
 }
 
 #thisismaryText {
-  font-family: 'courier new', monospace;
+  font-family: "courier new", monospace;
   font-size: 74px;
   position: absolute;
-  /* display: flex; */
   align-items: center;
   top: 45%;
-  text-shadow: -1px -1px #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+  text-shadow: -1px -1px #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
   animation: enlarge 2s ease-in-out infinite;
   z-index: 1;
 }
@@ -47,85 +47,87 @@ html {
 
 .arrowU {
   position: absolute;
-  top: -115px; 
+  top: -115px;
   left: 200px;
-  animation: moveUpDownU 2.1s infinite;  
+  animation: moveUpDownU 2.1s infinite;
 }
 
 .arrowUR {
   position: absolute;
-  top: -110px; 
+  top: -110px;
   right: -120px;
-  animation: moveUpDownUR 4s infinite;  
+  animation: moveUpDownUR 4s infinite;
 }
 
 .arrowDL {
   position: absolute;
-  bottom: -130px; 
+  bottom: -130px;
   left: -130px;
-  animation: moveUpDownUR 5s infinite;  
+  animation: moveUpDownUR 5s infinite;
 }
 
 .arrowD {
   display: none;
   position: absolute;
-  bottom: -130px; 
+  bottom: -130px;
   left: 260px;
-  animation: moveUpDownD 2.5s infinite;  
+  animation: moveUpDownD 2.5s infinite;
 }
-
 
 .arrowDR {
   position: absolute;
-  bottom: -135px; 
+  bottom: -135px;
   right: -145px;
-  animation: moveUpDownUL 3.8s infinite;  
+  animation: moveUpDownUL 3.8s infinite;
 }
 
 .hobbySkating {
   position: absolute;
-  top: -400px;
-  left: -250px;
-  rotate: -20deg;;
+  top: 200px;
+  left: 800px;
+  rotate: -20deg;
 }
 
-#discord-logo {
+#discordLogo {
   position: absolute;
-  bottom: -190px;
-  left: -200px;
+  bottom: 400px;
+  left: 820px;
 }
-#insta-icon {
+
+#instaIcon {
   position: absolute;
-  bottom: -180px;
-  left: -120px;
+  bottom: 350px;
+  left: 880px;
 }
-#yt-logo {
+
+#ytLogo {
   position: absolute;
-  bottom: -130px;
-  left: -170px;
+  bottom: 350px;
+  left: 760px;
 }
-#twitch-logo {
+
+#twitchLogo {
   position: absolute;
-  bottom: -250px;
-  left: -140px;
+  bottom: 310px;
+  left: 820px;
 }
 
 .hobbyPiano {
   position: absolute;
-  top: -300px;
-  left: 600px;
+  top: 300px;
+  right: 600px;
 }
 
 .hobbyTravelling {
   position: absolute;
-  top: 100px;
-  left: 520px;
+  bottom: 100px;
+  right: 520px;
 }
 
 .hobbyPsych {
   position: absolute;
-  top: -300px;
-  left: 200px;
+  top: 300px;
+  /* left: 200px; */
 }
 
 .donate {
@@ -145,48 +147,37 @@ html {
   text-align: center;
 }
 
-.aboutMary {
-  display: none;
-}
-
-#thisismaryPassion {
-  display: none;
-  position: relative;
-  justify-content: center;
-}
-
-#thisismaryText:hover + #thisismaryPassion {
-  cursor: help;
-  display: flex;
-} 
-
 .hobbyPsych:hover {
   cursor: pointer;
   transform: scale(1.3);
   z-index: 1;
 }
+
 .hobbySkating:hover {
   cursor: pointer;
   transform: scale(1.3);
   z-index: 1;
 }
 
-#discord-logo:hover {
+#discordLogo:hover {
   cursor: pointer;
   transform: scale(1.8);
   z-index: 1;
 }
-#insta-icon:hover {
+
+#instaIcon:hover {
   cursor: pointer;
   transform: scale(1.8);
   z-index: 1;
 }
-#yt-logo:hover {
+
+#ytLogo:hover {
   cursor: pointer;
   transform: scale(1.8);
   z-index: 1;
 }
-#twitch-logo:hover {
+
+#twitchLogo:hover {
   cursor: pointer;
   transform: scale(1.8);
   z-index: 1;
@@ -212,51 +203,57 @@ html {
 
 @keyframes moveUpDownUL {
   0% {
-      transform: translateY(0);
+    transform: translateY(0);
   }
+
   50% {
-      transform: translateX(-20px) translateY(-20px);
+    transform: translateX(-20px) translateY(-20px);
   }
+
   100% {
-      transform: translateY(0);
+    transform: translateY(0);
   }
 }
-
 
 @keyframes moveUpDownU {
   0% {
-      transform: translateY(0);
+    transform: translateY(0);
   }
+
   50% {
-      transform: translateY(-20px);
+    transform: translateY(-20px);
   }
+
   100% {
-      transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
-
 @keyframes moveUpDownD {
   0% {
-      transform: translateY(100);
+    transform: translateY(100);
   }
+
   50% {
-      transform: translateY(-20px);
+    transform: translateY(-20px);
   }
+
   100% {
-      transform: translateY(100);
+    transform: translateY(100);
   }
 }
 
 @keyframes moveUpDownUR {
   0% {
-      transform: translateY(0);
+    transform: translateY(0);
   }
+
   50% {
-      transform: translateX(20px) translateY(-20px);
+    transform: translateX(20px) translateY(-20px);
   }
+
   100% {
-      transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
@@ -264,10 +261,62 @@ html {
   0% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.03);
   }
+
   100% {
     transform: scale(1);
   }
+}
+
+#infoPassion,
+#physicalHealth,
+#socialHealth,
+#emotionalHealth,
+#spiritualHealth,
+#mentalHealth {
+  display: none;
+  text-align: center;
+}
+
+#thisismaryText:hover + #infoPassion {
+  display: grid;
+  opacity: 100%;
+  bottom: 200px;
+}
+
+.hobbySkating:hover + #physicalHealth {
+  display: grid;
+  position: absolute;
+  top: 200px;
+  left: 80px;
+}
+
+.hobbySocials:hover + #socialHealth {
+  display: grid;
+  position: absolute;
+  bottom: 200px;
+  left: 80px;
+}
+
+.hobbyPiano:hover + #emotionalHealth {
+  display: block;
+  position: absolute;
+  top: 200px;
+  right: 80px;
+}
+
+.hobbyTravelling:hover + #spiritualHealth {
+  display: block;
+  position: absolute;
+  bottom: 200px;
+  right: 80px;
+}
+
+.hobbyPsych:hover + #mentalHealth {
+  display: block;
+  position: absolute;
+  top: 100px
 }
