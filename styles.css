@@ -13,8 +13,6 @@ html {
   position: fixed;
   top: -10px;
   left: -10px;
-  bottom: -10px;
-  display: flex;
 }
 
 .homepageContainer {
@@ -279,23 +277,24 @@ html {
 #mentalHealth {
   display: none;
   text-align: center;
+  width: 500px;
 }
 
 #thisismaryText:hover + #infoPassion {
-  display: grid;
-  opacity: 100%;
-  bottom: 200px;
+  display: block;
+  position: absolute;
+  bottom: 400px;
 }
 
 .hobbySkating:hover + #physicalHealth {
-  display: grid;
+  display: block;
   position: absolute;
   top: 200px;
   left: 80px;
 }
 
 .hobbySocials:hover + #socialHealth {
-  display: grid;
+  display: block;
   position: absolute;
   bottom: 200px;
   left: 80px;
@@ -319,4 +318,43 @@ html {
   display: block;
   position: absolute;
   top: 100px
+}
+
+ul {
+  list-style-type: none;
+  background-color: #ffd9ba;
+  position: fixed;
+  top: -10;
+  width: 110vw;
+}
+
+.navbar {
+  float: left;
+}
+
+.navbar a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover:not(.active) {
+  background-color: #ffdede;
+}
+
+h1 {
+  font-family: "courier new", monospace;
+  font-size: 50px;
+  position: absolute;
+  align-items: center;
+  /* top: 10%; */
+}
+
+p {
+  font-family: "courier new", monospace;
+  font-size: 20px;
+  /* position: relative; */
+  align-items: center;
 }

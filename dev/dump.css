@@ -75,4 +75,34 @@ This one UL
 </defs>
 
 /* This one is for the about section */
-Beginning my career with the goal of integrating psychology and technology in the safest and most ethical way possible.
+Beginning my career with the goal of integrating psychology and technology in the safest and most ethical way possible.'
+
+
+
+/* This is one is testing hover no display and show */
+
+#physicalHealth {
+    display: none;
+  }
+  
+  #mentalHealth {
+    display: none;
+  }
+  
+  #emotionalHealth {
+    display: none;
+  }
+  
+  #socialHealth {
+    display: none;
+  }
+  
+  #spiritualHealth {
+    display: none;
+  }
+  
+  #thisismaryPassion {
+    display: none;
+    position: relative;
+    justify-content: center;
+  }
