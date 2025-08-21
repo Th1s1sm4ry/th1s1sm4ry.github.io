@@ -1,0 +1,108 @@
+These are the svg arrows
+
+This one UR
+<defs>
+<filter id="fancyShadow">
+    <feOffset result="off1" in="SourceAlpha" dx="10" dy="10" />
+    <feFlood flood-color="#fccefc" />
+    <feComposite in2="off1" operator="in" />
+    <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+    </feMerge>
+
+    <feOffset result="off2" in="SourceAlpha" dx="3" dy="-3" />
+    <feFlood flood-color="#ffffff" />
+    <feComposite in2="off2" operator="in" />
+    <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+    </feMerge>
+
+    <feOffset result="off3" in="SourceAlpha" dx="-1" dy="1" />
+    <feFlood flood-color="#ffffff" />
+    <feComposite in2="off3" operator="in" />
+    <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+    </feMerge>
+
+    <feOffset result="off4" in="SourceAlpha" dx="1" dy="1" />
+    <feFlood flood-color="#ffffff" />
+    <feComposite in2="off4" operator="in" />
+    <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+    </feMerge>
+</filter>
+</defs>
+
+This one UL 
+<!-- <defs>
+<filter id="fancyShadow">
+    <feOffset result="off1" in="SourceAlpha" dx="-3" dy="-3" />
+    <feFlood flood-color="#ffffff" />
+    <feComposite in2="off1" operator="in" />
+    <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+    </feMerge>
+
+    <feOffset result="off2" in="SourceAlpha" dx="3" dy="-3" />
+    <feFlood flood-color="#ffffff" />
+    <feComposite in2="off2" operator="in" />
+    <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+    </feMerge>
+
+    <feOffset result="off3" in="SourceAlpha" dx="-3" dy="3" />
+    <feFlood flood-color="#ffffff" />
+    <feComposite in2="off3" operator="in" />
+    <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+    </feMerge>
+
+    <feOffset result="off4" in="SourceAlpha" dx="3" dy="3" />
+    <feFlood flood-color="#ffffff" />
+    <feComposite in2="off4" operator="in" />
+    <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+    </feMerge>
+</filter>
+</defs>
+
+/* This one is for the about section */
+Beginning my career with the goal of integrating psychology and technology in the safest and most ethical way possible.'
+
+
+
+/* This is one is testing hover no display and show */
+
+#physicalHealth {
+    display: none;
+  }
+  
+  #mentalHealth {
+    display: none;
+  }
+  
+  #emotionalHealth {
+    display: none;
+  }
+  
+  #socialHealth {
+    display: none;
+  }
+  
+  #spiritualHealth {
+    display: none;
+  }
+  
+  #thisismaryPassion {
+    display: none;
+    position: relative;
+    justify-content: center;
+  }
